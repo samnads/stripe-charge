@@ -1,0 +1,27 @@
+form .error{
+    color: #dc3545;
+}
+label>rf:after {
+    content: " *";
+    color: red;
+}
+
+.dt-paging-button a {
+    background: #fafafa !important;
+    padding: 3px 10px 2px !important;
+    font-size: 13px;
+}
+
+.active>.page-link,
+.page-link.active {
+    z-index: 3;
+    color: #555;
+    background: #FFF !important;
+    border-color: #CCC;
+}
+.page-link{
+    color: #3a3a3a;
+}
+.card .card-header.filter{
+    background-color: #f6f9ff;
+}
